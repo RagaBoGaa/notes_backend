@@ -19,7 +19,7 @@ app.use(rateLimiter);
 app.use(multer().none());
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'https://notesfs.vercel.app'],
+    // origin: ['http://localhost:5173', 'https://notesfs.vercel.app'],
     credentials: true,
   })
 );
